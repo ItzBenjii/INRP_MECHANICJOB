@@ -1,10 +1,10 @@
 -----------------------------------------------------------------------
------------------------- INSONIA RP - PORTUGAL ------------------------
+------------------------ Nifty Network - Dansk ------------------------
 -----------------------------------------------------------------------
--------------------------    VERSION - B1G     ------------------------
+------------------------- ---------------------------------------------
 -----------------------------------------------------------------------
 -----------------------------------------------------------------------
--------------------------     MECHANIC JOB    -------------------------
+-------------------------     MEKANIKER JOB    -------------------------
 -----------------------------------------------------------------------
 Config                            = {}
 Config.Locale = 'en'
@@ -39,27 +39,27 @@ Config.Zones = {
 
 	CarLift = {
 		Pos = { x = -219.3204, y = -1326.43, z = 31.90041},
-		Text = 'Press [~g~E~w~] to control machine'
+		Text = 'Tryk [~g~E~w~] for at styre maskinen'
 	},
 	MechanicActions = {
 		Pos   = { x = -200.74, y = -1318.69, z = 31.09 },
 		Size  = { x = 1.5, y = 1.5, z = 1.0 },
 		Type  = 0,
-		Text  = 'Press [~g~E~w~] to ~g~open~w~ menu'
+		Text  = 'Tryk [~g~E~w~] for at ~g~åbne~w~ menuen'
 	},
 
 	Garage = {
 		Pos   = { x = 1991.04, y = 3790.29, z = 32.18 },
 		Size  = { x = 1.5, y = 1.5, z = 1.0 },
 		Type  = 1,
-		Text  = 'Press [~g~E~w~] to harvest~y~ tools'
+		Text  = 'Tryk [~g~E~w~] for at ødelægge~y~ værktøjer'
 	},
 
 	Craft = {
 		Pos   = { x = -323.140, y = -129.882, z = 38.999 },
 		Size  = { x = 1.5, y = 1.5, z = 1.0 },
 		Type  = 1,
-		Text  = 'Press [~g~E~w~] to create~y~ tools'
+		Text  = 'Tryk [~g~E~w~] for at lave~y~ værktøjer'
 	},
 
 	VehicleSpawnPoint = {
@@ -73,7 +73,7 @@ Config.Zones = {
 		Pos   = { x = -193.56, y = -1305.43, z = 31.37 },
 		Size  = { x = 3.0, y = 3.0, z = 1.0 },
 		Type  = 1,
-		Text  = 'Press [~g~E~w~] to ~g~save~w~ your car'
+		Text  = 'Tryk [~g~E~w~] for at ~g~gemme~w~ ændringer'
 	},
 
 	VehicleDelivery = {
@@ -87,7 +87,7 @@ Config.Zones = {
 		Pos   = { x = -222.25, y = -1329.58, z = 30.89 },
 		Size  = {x = 3.0, y = 3.0, z = 0.2},
 		Marker= 1,
-		Text  = 'Press [~g~E~w~] to ~g~costumize~w~ your car'
+		Text  = 'Tryk [~g~E~w~] for at ~g~tilpasse~w~ din bil'
 
 	},
 	
@@ -95,14 +95,14 @@ Config.Zones = {
 		Pos   = { x = -199.11, y = -1324.4, z = 31.13 },
 		Size  = {x = 3.0, y = 3.0, z = 0.2},
 		Marker= 1,
-		Text  = 'Press [~g~E~w~] to ~g~costumize~w~ your car'
+		Text  = 'Tryk [~g~E~w~] for at ~g~tilpasse~w~ din bil'
 	},
 	
 	ls3 = {
 		Pos   = { x = -221.82, y = -1324.24, z = 31.13 },
 		Size  = {x = 3.0, y = 3.0, z = 0.2},
 		Marker= 1,
-		Text  = 'Press [~g~E~w~] to ~g~costumize~w~ your car'
+		Text  = 'Tryk [~g~E~w~] for at ~g~tilpasse~w~ din bil'
 	}
 
 }
@@ -111,8 +111,8 @@ Config.Zones = {
 ----------------------------------------------------------- RADIALMENU-----------------------------
 ---------------------------------------------------------------------------------------------------
 
--- ALERT !!!! - TO ACTIVE THE ANIMATIONS FUNCTIONALITY, YOU NEED TO HAVE THESE ANIMATIONS REGISTERED AS COMMANDS SOMEWHERE
--- 				I Recommend Radian_Animations!
+- ALERT !!!! - FOR AT AKTIVERE ANIMATIONERNES FUNKTIONALITET, skal du have disse animationer, der er registreret som kommandoer nogle steder
+- Jeg anbefaler Radian_Animations!
 
 --{name = 'fix1', data = {type = 'anim', ad = "amb@prop_human_bum_bin@base", anim = "base", prop = 0, proptwo = 0, boneone = nil, bonetwo = nil, body = 49, x = 0.0, y = 0.0, z = 0.0, xa = 0.0, yb = 0.0, zc = 0.0}},
 --{name = 'fix2', data = {type = 'anim', ad = "amb@prop_human_movie_bulb@base", anim = "base", prop = 0, proptwo = 0, boneone = nil, bonetwo = nil, body = 49, x = 0.0, y = 0.0, z = 0.0, xa = 0.0, yb = 0.0, zc = 0.0}},
